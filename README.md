@@ -5,7 +5,7 @@ Simple rockmongo for docker. I use it for development purposes together with fig
 Example fig.yml:
 ```
 mongodb:
-  image: dockerfile/mongodb:latest
+  image: mongo:latest
   ports:
     - "127.0.0.1:27017:27017"
     - "127.0.0.1:27018:27018"
